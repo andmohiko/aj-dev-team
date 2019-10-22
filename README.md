@@ -1,5 +1,5 @@
 # AJ Dev Team Website
-ajdevteam.netlify.com
+ https://ajdevteam.netlify.com
 
 
 
