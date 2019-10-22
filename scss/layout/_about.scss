@@ -1,0 +1,29 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+
+img.ajxtech {
+  height: 175px;
+  margin: 20px 0;
+  padding: 0;
+}  
+
+@media screen and (max-width:460px) { 
+  /*　画面サイズが460px以下はここを読み込む　*/
+  img.ajxtech {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }  
+}
+// @media screen and (min-width:768px) and ( max-width:1024px) {
+//   /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+// p {}
+// }
+// @media screen and (min-width:1024px) {
+//   /*　画面サイズが1024pxからはここを読み込む　*/
+
+// }

@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+@charset "UTF-8";
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -227,9 +228,19 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-img {
-  width: 128px;
-  height: 128px;
+img.ajxtech {
+  height: 175px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 460px) {
+  /*　画面サイズが460px以下はここを読み込む　*/
+  img.ajxtech {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
 }
 
 #portfolio .portfolio-item {
@@ -566,6 +577,16 @@ img {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+img {
+  height: 128px;
+  widows: 128px;
 }
 
 .team-member {
