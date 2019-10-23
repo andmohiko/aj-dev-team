@@ -234,6 +234,10 @@ img.ajxtech {
   padding: 0;
 }
 
+img.iii-logo {
+  margin: 30px;
+}
+
 @media screen and (max-width: 460px) {
   /*　画面サイズが460px以下はここを読み込む　*/
   img.ajxtech {
